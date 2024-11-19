@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.wrapper {
+    width: 1024px;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav {
+    background-color: #697565;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav > .wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu > ul {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #ECDFCC;
+}
+
+header {
+    background: url('../images1/8bc28460-dcf1-4566-92a5-f361fca36426.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header-opacity {
+    background-color: #C0C78C;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-jumbotron > h4 {
+    color: #ECDFCC;
+    font-size: 1.5rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.header-jumbotron > h5 {
+    color: #ECDFCC;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+.header-jumbotron > p {
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+    color: #ECDFCC;
+}
+/*
+* statistic
+*/
+#statistic {
+    background-color: #697565;
+    color: #fff;
+}
+
+#statistic > .wrapper {
+    padding: 50px;
+    width: 80%;
+}
+/*
+*riwayat
+*/
+#premium-course {
+    text-decoration: none;
+    background-color: #ECDFCC;
+}
+#premium-course > .wrapper {
+    text-decoration: none;
+    padding: 100px;
+    width: 60%;
+}
+.grid {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 250px;
+    grid-gap: 50px;
+}
+.grid > .item {
+    text-decoration: none;
+    border: 0px solid;
+    background-color: #C0C78C;
+    border-radius: 20px;
+}
+
+.grid > .item > .item-detail {
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    padding: 5%;
+    color: #697565;
+    margin-top: 0px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.grid > .item > .item-detail > div {
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    display: flex;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/*
+* about me
+*/
+#tentang-saya {
+    background-color: #697565;
+    color:#ECDFCC;
+}
+
+#tentang-saya > .wrapper {
+    padding: 60px 0px 60px 0px;
+    width: 80%;
+}
+#tentang-saya > .wrapper > p {
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+    justify-content:space-around;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-left: 240px;
+    padding: 0px;
+}
+#tentang-saya > .wrapper > div {
+    display: flex;
+    width: 50%;
+    margin-left: 400px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+}
+#tentang-saya > .wrapper > div > .foto {
+    width: 30%;
+    width: 30%;
+}
+#tentang-saya > .wrapper > div .foto > img {
+    max-width: 100%;
+}
+#tentang-saya > .wrapper > div > .fotoh {
+    width: 30%;
+}
+#tentang-saya > .wrapper > div .fotoh > img {
+    max-width: 100%;
+}
+#tentang-saya > .wrapper > div > .fotohg {
+    width: 30%;
+}
+#tentang-saya > .wrapper > div .fotohg > img {
+    max-width: 100%;
+}
+
+/*
+* statistic
+*/
+#lanjutan {
+    background-color: #ECDFCC;
+    color: #fff;
+}
+
+#lanjutan > .wrapper {
+    padding: 100px;
+    width: 80%;
+}
